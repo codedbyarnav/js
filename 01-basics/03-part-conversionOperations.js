@@ -28,3 +28,9 @@ let isString = String(onlyString)
 console.log(onlyString);
 console.log(isString);
 console.log(typeof isString);
+
+
+//basic operators as follows
+// +,-,*,/,**(for power)
+// link to study for operations 
+// https://tc39.es/ecma262/multipage/abstract-operations.
