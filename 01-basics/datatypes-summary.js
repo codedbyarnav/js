@@ -1,4 +1,4 @@
-// primitive
+// .............................Primitive............................>
 // 7 Types : String, Number, Boolean, Null, Undefined, Symbol, Bigint
 
 const score = 500 
@@ -14,8 +14,8 @@ console.log([id==AnotId])
 const bigNumber = 3455677856987679n
 
 
-//Reference (Non Primitive) 
-// Array, Objects ,Functions
+//..................Reference (Non Primitive) ............................>
+//..................Array, Objects ,Functions ............................>
 
 
 //Array
@@ -35,5 +35,29 @@ const myFunction = function () {
 console.log(typeof outsideTemp);
 
 // documentation >> https://262.ecma-international.org/5.1/#sec-11.4.3 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive)>> Copy value, original stays unchanged.!!
+// Heap (Non Primitive)>> Reference shared, original gets updated!! )
+
+let myGitName = "codedbyarnav"
+let anotherName = myGitName 
+
+
+console.log(anotherName);
+console.log(myGitName);
+
+let userOne = {
+    name:"Arnold",
+    age :"70",
+}
+
+let userTwo = userOne
+
+userTwo.email = "codedbyarnav@git.com"
+
+console.log(userTwo)
+console.log(userOne.email);
 
 
