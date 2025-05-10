@@ -1,7 +1,7 @@
 "use strict";
 //alert("hello") //we are using Node.js not browser
 console.log(3+
-    3
+ 3
 );// code readability should be high
 
 let name = "Arnav"

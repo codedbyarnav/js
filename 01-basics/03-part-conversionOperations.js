@@ -12,11 +12,11 @@ console.log(valueOfNumber)
 
 let isLogged = "1"
 
-let IsBooleanLocked = Boolean(isLogged)
+let IsBooleanLogged = Boolean(isLogged)
 
 console.log(isLogged);
-console.log(IsBooleanLocked);
-console.log(typeof IsBooleanLocked);
+console.log(IsBooleanLogged);
+console.log(typeof IsBooleanLogged);
 
 // 1 => true , 0 => false 
 // "string" => true
