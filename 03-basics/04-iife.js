@@ -5,9 +5,9 @@
     // named function
     console.log(`Enter`);
     
-})()
+})();
 
 (()=>{
     console.log(`enter the value ${name}`);
     
-})()
+})();
